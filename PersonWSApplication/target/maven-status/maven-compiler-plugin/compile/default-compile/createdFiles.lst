@@ -1,0 +1,4 @@
+com\mycompany\personwsapplication\ConnectionDB.class
+com\mycompany\personwsapplication\PersonInfo.class
+com\mycompany\personwsapplication\PersonWebServiceImpl.class
+com\mycompany\personwsapplication\PersonWebService.class
