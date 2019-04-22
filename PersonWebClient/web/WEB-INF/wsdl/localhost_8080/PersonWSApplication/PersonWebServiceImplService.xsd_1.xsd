@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI (http://jax-ws.java.net). RI's version is Metro/2.3.2-b608 (trunk-7979; 2015-01-21T12:50:19+0000) JAXWS-RI/2.2.11-b150120.1832 JAXWS-API/2.2.12 JAXB-RI/2.2.12-b141219.1637 JAXB-API/2.2.13-b141020.1521 svn-revision#unknown. --><xs:schema xmlns:tns="http://personwsapplication.mycompany.com/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://personwsapplication.mycompany.com/">
+
+<xs:element name="RAge" type="tns:RAge"/>
+
+<xs:element name="RAgeResponse" type="tns:RAgeResponse"/>
+
+<xs:element name="RPerson" type="tns:RPerson"/>
+
+<xs:element name="RPersonResponse" type="tns:RPersonResponse"/>
+
+<xs:element name="RSalary" type="tns:RSalary"/>
+
+<xs:element name="RSalaryResponse" type="tns:RSalaryResponse"/>
+
+<xs:complexType name="RPerson">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="RPersonResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:personInfo" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="personInfo">
+<xs:sequence>
+<xs:element name="age" type="xs:string" minOccurs="0"/>
+<xs:element name="name" type="xs:string" minOccurs="0"/>
+<xs:element name="position" type="xs:string" minOccurs="0"/>
+<xs:element name="salary" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="RAge">
+<xs:sequence>
+<xs:element name="Name" type="xs:string" minOccurs="0"/>
+<xs:element name="Position" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="RAgeResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="RSalary">
+<xs:sequence>
+<xs:element name="Name" type="xs:string" minOccurs="0"/>
+<xs:element name="Position" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="RSalaryResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:personInfo" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>
