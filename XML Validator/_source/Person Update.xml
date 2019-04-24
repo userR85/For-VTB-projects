@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Import name="public.person" query="SELECT &quot;id&quot;, &quot;name&quot;, &quot;position&quot;, &quot;age&quot;, &quot;salary&quot;, &quot;Room&quot; FROM &quot;public&quot;.&quot;person&quot;;
+">
+	<!--PostgreSQL-->
+	<!--Column name:id type:integer maxlength:4-->
+	<!--Column name:name type:character varying length:2147483647 maxlength:2147483647-->
+	<!--Column name:position type:character varying length:2147483647 maxlength:2147483647-->
+	<!--Column name:age type:character varying length:2147483647 maxlength:2147483647-->
+	<!--Column name:salary type:character varying length:2147483647 maxlength:2147483647-->
+	<!--Column name:Room type:character varying length:2147483647 maxlength:2147483647-->
+	<Row>
+		<id>1</id>
+		<name>Иван Петров</name>
+		<position>Директор</position>
+		<age>50</age>
+		<salary>500000</salary>
+		<Room>321</Room>
+	</Row>
+	<Row>
+		<id>2</id>
+		<name>Николай Печкин</name>
+		<position>Заместитель Директора</position>
+		<age>48</age>
+		<salary>450000</salary>
+		<Room>257</Room>
+	</Row>
+	<Row>
+		<id>3</id>
+		<name>Василий Быков</name>
+		<position>Начальник отдела</position>
+		<age>45</age>
+		<salary>400000</salary>
+		<Room>317</Room>
+	</Row>
+	<Row>
+		<id>4</id>
+		<name>Леонид Белов</name>
+		<position>Начальник отдела</position>
+		<age>43</age>
+		<salary>380000</salary>
+		<Room>214</Room>
+	</Row>
+	<Row>
+		<id>5</id>
+		<name>Владимир Смирнов</name>
+		<position>Главный специалист</position>
+		<age>35</age>
+		<salary>350000</salary>
+		<Room>258</Room>
+	</Row>
+	<Row>
+		<id>6</id>
+		<name>Вячеслав Давыдов</name>
+		<position>Главный специалист</position>
+		<age>30</age>
+		<salary>330000</salary>
+		<Room>367</Room>
+	</Row>
+	<Row>
+		<id>7</id>
+		<name>Петр Елисеев</name>
+		<position>Ведущий специалист</position>
+		<age>29</age>
+		<salary>300000</salary>
+		<Room>799</Room>
+	</Row>
+	<Row>
+		<id>8</id>
+		<name>Александр Пчельников</name>
+		<position>Ведущий специалист</position>
+		<age>27</age>
+		<salary>280000</salary>
+		<Room>325</Room>
+	</Row>
+	<Row>
+		<id>9</id>
+		<name>Алексей Маслов</name>
+		<position>Старший специалист</position>
+		<age>25</age>
+		<salary>230000</salary>
+		<Room>557</Room>
+	</Row>
+</Import>
